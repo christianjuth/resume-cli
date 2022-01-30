@@ -9,12 +9,12 @@
     "dev": "nodemon -e ts --ignore *.tmp.ts -x 'ts-cli-generator build && node . $1'"
   },
   "devDependencies": {
-    "@christianjuth/ts-cli-generator": "*",
     "@types/openurl": "^1.0.0",
     "nodemon": "2.x",
     "typescript": "*"
   },
   "dependencies": {
+    "@christianjuth/ts-cli-generator": "*",
     "mailto-link": "^2.0.0",
     "open": "^8.4.0",
     "openurl": "^1.1.1"
