@@ -16,54 +16,16 @@
       {
         "name": "str",
         "types": [
-          "string:project1",
-          "string:project2"
+          "string:tic-tac-toe-ai-in-rust",
+          "string:dfs-sudoku-solver",
+          "string:react-photo-editor",
+          "string:graph-search-visualizer",
+          "string:minimax-pruning-solver",
+          "string:spotify-random-playlist-generator",
+          "string:react-state-machine-library"
         ]
       }
     ],
     "description": "Check out some of my projects ✨"
-  },
-  "contact": {
-    "params": [
-      {
-        "name": "info",
-        "types": [
-          {
-            "name": "info",
-            "object": [
-              {
-                "name": "info.subject",
-                "key": "subject",
-                "types": [
-                  "string"
-                ]
-              },
-              {
-                "name": "info.name",
-                "key": "name",
-                "types": [
-                  "string"
-                ]
-              },
-              {
-                "name": "info.email",
-                "key": "email",
-                "types": [
-                  "string"
-                ]
-              },
-              {
-                "name": "info.phoneNumber",
-                "key": "phoneNumber",
-                "types": [
-                  "string"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "description": "Contact me 📪"
   }
 }
