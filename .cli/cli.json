@@ -1,0 +1,69 @@
+{
+  "twitter": {
+    "params": [],
+    "description": "Follow me on Twitter 🐦"
+  },
+  "linkedin": {
+    "params": [],
+    "description": "Connect with my on LinkedIn 👔"
+  },
+  "github": {
+    "params": [],
+    "description": "See my projects on GitHub 🚀"
+  },
+  "projects": {
+    "params": [
+      {
+        "name": "str",
+        "types": [
+          "string:project1",
+          "string:project2"
+        ]
+      }
+    ],
+    "description": "Check out some of my projects ✨"
+  },
+  "contact": {
+    "params": [
+      {
+        "name": "info",
+        "types": [
+          {
+            "name": "info",
+            "object": [
+              {
+                "name": "info.subject",
+                "key": "subject",
+                "types": [
+                  "string"
+                ]
+              },
+              {
+                "name": "info.name",
+                "key": "name",
+                "types": [
+                  "string"
+                ]
+              },
+              {
+                "name": "info.email",
+                "key": "email",
+                "types": [
+                  "string"
+                ]
+              },
+              {
+                "name": "info.phoneNumber",
+                "key": "phoneNumber",
+                "types": [
+                  "string"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "description": "Contact me 📪"
+  }
+}

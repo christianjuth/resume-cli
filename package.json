@@ -1,0 +1,22 @@
+{
+  "name": "christianjuth-resume",
+  "version": "0.0.0",
+  "main": "./.cli/cli.js",
+  "bin": "./.cli/cli.js",
+  "scripts": {
+    "build": "ts-cli-generator build",
+    "start": "ts-cli-generator build && node .",
+    "dev": "nodemon -e ts --ignore *.tmp.ts -x 'ts-cli-generator build && node . $1'"
+  },
+  "devDependencies": {
+    "@christianjuth/ts-cli-generator": "*",
+    "@types/openurl": "^1.0.0",
+    "nodemon": "2.x",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "mailto-link": "^2.0.0",
+    "open": "^8.4.0",
+    "openurl": "^1.1.1"
+  }
+}
